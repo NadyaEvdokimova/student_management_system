@@ -16,7 +16,7 @@ class MainWindow(QMainWindow):
 
         file_menu_item = self.menuBar().addMenu("&File")
         help_menu_item = self.menuBar().addMenu("&Help")
-        edit_menu_item = self.menuBar().addMenu("&Edit")
+        edit_menu_item = self.menuBar().addMenu("&Search")
 
         add_student_action = QAction(QIcon('icons/add.png'), "Add Student", self)
         add_student_action.triggered.connect(self.insert)
